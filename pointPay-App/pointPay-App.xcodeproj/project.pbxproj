@@ -1,0 +1,520 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AE9860D21B40D5080012187D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860D11B40D5080012187D /* main.m */; };
+		AE9860D51B40D5080012187D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860D41B40D5080012187D /* AppDelegate.m */; };
+		AE9860D81B40D5080012187D /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860D71B40D5080012187D /* RootViewController.m */; };
+		AE9860DB1B40D5080012187D /* DataViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860DA1B40D5080012187D /* DataViewController.m */; };
+		AE9860DE1B40D5080012187D /* ModelController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860DD1B40D5080012187D /* ModelController.m */; };
+		AE9860E11B40D5080012187D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE9860DF1B40D5080012187D /* Main.storyboard */; };
+		AE9860E31B40D5080012187D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE9860E21B40D5080012187D /* Images.xcassets */; };
+		AE9860E61B40D5080012187D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = AE9860E41B40D5080012187D /* LaunchScreen.xib */; };
+		AE9860F21B40D5080012187D /* pointPay_AppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9860F11B40D5080012187D /* pointPay_AppTests.m */; };
+		AE9861011B40D54C0012187D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9860FB1B40D54C0012187D /* AVFoundation.framework */; };
+		AE9861021B40D54C0012187D /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9860FC1B40D54C0012187D /* CFNetwork.framework */; };
+		AE9861051B40D54C0012187D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9860FF1B40D54C0012187D /* CoreGraphics.framework */; };
+		AE9861061B40D54C0012187D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9861001B40D54C0012187D /* Foundation.framework */; };
+		AE9861081B40D57F0012187D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9861071B40D57F0012187D /* SystemConfiguration.framework */; };
+		AE98610A1B40D58B0012187D /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE9861091B40D58B0012187D /* CoreImage.framework */; };
+		AE98610C1B40D5920012187D /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98610B1B40D5920012187D /* AssetsLibrary.framework */; };
+		AE98610E1B40D59A0012187D /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98610D1B40D5990012187D /* Security.framework */; };
+		AE9861101B40D5B90012187D /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AE98610F1B40D5B90012187D /* UIKit.framework */; };
+		AE9861141B40D6FF0012187D /* login.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9861131B40D6FF0012187D /* login.m */; };
+		AE9861181B40D7EE0012187D /* registerScreen.m in Sources */ = {isa = PBXBuildFile; fileRef = AE9861171B40D7ED0012187D /* registerScreen.m */; };
+		AE9861211B40D81B0012187D /* UIAlertView+error.m in Sources */ = {isa = PBXBuildFile; fileRef = AE98611A1B40D81B0012187D /* UIAlertView+error.m */; };
+		AE9861261B4201430012187D /* images in Resources */ = {isa = PBXBuildFile; fileRef = AE9861251B4201430012187D /* images */; };
+		AEA2C7DF1B422E0E008A4D82 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEA2C7DE1B422E0E008A4D82 /* ViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE9860EC1B40D5080012187D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE9860C41B40D5080012187D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE9860CB1B40D5080012187D;
+			remoteInfo = "pointPay-App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AE9860CC1B40D5080012187D /* pointPay-App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "pointPay-App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9860D01B40D5080012187D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9860D11B40D5080012187D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		AE9860D31B40D5080012187D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		AE9860D41B40D5080012187D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		AE9860D61B40D5080012187D /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		AE9860D71B40D5080012187D /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		AE9860D91B40D5080012187D /* DataViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DataViewController.h; sourceTree = "<group>"; };
+		AE9860DA1B40D5080012187D /* DataViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataViewController.m; sourceTree = "<group>"; };
+		AE9860DC1B40D5080012187D /* ModelController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ModelController.h; sourceTree = "<group>"; };
+		AE9860DD1B40D5080012187D /* ModelController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ModelController.m; sourceTree = "<group>"; };
+		AE9860E01B40D5080012187D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE9860E21B40D5080012187D /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		AE9860E51B40D5080012187D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		AE9860EB1B40D5080012187D /* pointPay-AppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "pointPay-AppTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE9860F01B40D5080012187D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE9860F11B40D5080012187D /* pointPay_AppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = pointPay_AppTests.m; sourceTree = "<group>"; };
+		AE9860FB1B40D54C0012187D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		AE9860FC1B40D54C0012187D /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		AE9860FD1B40D54C0012187D /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		AE9860FE1B40D54C0012187D /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = System/Library/Frameworks/CoreFoundation.framework; sourceTree = SDKROOT; };
+		AE9860FF1B40D54C0012187D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		AE9861001B40D54C0012187D /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		AE9861071B40D57F0012187D /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		AE9861091B40D58B0012187D /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		AE98610B1B40D5920012187D /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		AE98610D1B40D5990012187D /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		AE98610F1B40D5B90012187D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		AE9861111B40D67B0012187D /* PayPoint-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PayPoint-Prefix.pch"; sourceTree = "<group>"; };
+		AE9861121B40D6E80012187D /* login.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = login.h; sourceTree = "<group>"; };
+		AE9861131B40D6FF0012187D /* login.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = login.m; sourceTree = "<group>"; };
+		AE9861151B40D75D0012187D /* mainScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = mainScreen.h; sourceTree = "<group>"; };
+		AE9861161B40D7C80012187D /* registerScreen.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = registerScreen.h; sourceTree = "<group>"; };
+		AE9861171B40D7ED0012187D /* registerScreen.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = registerScreen.m; sourceTree = "<group>"; };
+		AE9861191B40D81B0012187D /* UIAlertView+error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIAlertView+error.h"; path = "../../../../../../../../../Downloads/iReporterStartupProject/iReporter/UIAlertView+error.h"; sourceTree = "<group>"; };
+		AE98611A1B40D81B0012187D /* UIAlertView+error.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIAlertView+error.m"; path = "../../../../../../../../../Downloads/iReporterStartupProject/iReporter/UIAlertView+error.m"; sourceTree = "<group>"; };
+		AE9861251B4201430012187D /* images */ = {isa = PBXFileReference; lastKnownFileType = folder; name = images; path = ../../../APP/PointPay/PointPay/images; sourceTree = "<group>"; };
+		AEA2C7DD1B422E03008A4D82 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		AEA2C7DE1B422E0E008A4D82 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE9860C91B40D5080012187D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9861101B40D5B90012187D /* UIKit.framework in Frameworks */,
+				AE98610E1B40D59A0012187D /* Security.framework in Frameworks */,
+				AE98610C1B40D5920012187D /* AssetsLibrary.framework in Frameworks */,
+				AE98610A1B40D58B0012187D /* CoreImage.framework in Frameworks */,
+				AE9861081B40D57F0012187D /* SystemConfiguration.framework in Frameworks */,
+				AE9861011B40D54C0012187D /* AVFoundation.framework in Frameworks */,
+				AE9861021B40D54C0012187D /* CFNetwork.framework in Frameworks */,
+				AE9861051B40D54C0012187D /* CoreGraphics.framework in Frameworks */,
+				AE9861061B40D54C0012187D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9860E81B40D5080012187D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AE9860C31B40D5080012187D = {
+			isa = PBXGroup;
+			children = (
+				AE98610F1B40D5B90012187D /* UIKit.framework */,
+				AE98610D1B40D5990012187D /* Security.framework */,
+				AE98610B1B40D5920012187D /* AssetsLibrary.framework */,
+				AE9861091B40D58B0012187D /* CoreImage.framework */,
+				AE9861071B40D57F0012187D /* SystemConfiguration.framework */,
+				AE9860FB1B40D54C0012187D /* AVFoundation.framework */,
+				AE9860FC1B40D54C0012187D /* CFNetwork.framework */,
+				AE9860FD1B40D54C0012187D /* CoreData.framework */,
+				AE9860FE1B40D54C0012187D /* CoreFoundation.framework */,
+				AE9860FF1B40D54C0012187D /* CoreGraphics.framework */,
+				AE9861001B40D54C0012187D /* Foundation.framework */,
+				AE9860CE1B40D5080012187D /* pointPay-App */,
+				AE9860EE1B40D5080012187D /* pointPay-AppTests */,
+				AE9860CD1B40D5080012187D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AE9860CD1B40D5080012187D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE9860CC1B40D5080012187D /* pointPay-App.app */,
+				AE9860EB1B40D5080012187D /* pointPay-AppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE9860CE1B40D5080012187D /* pointPay-App */ = {
+			isa = PBXGroup;
+			children = (
+				AE9861251B4201430012187D /* images */,
+				AE9860D31B40D5080012187D /* AppDelegate.h */,
+				AE9860D41B40D5080012187D /* AppDelegate.m */,
+				AE9860D61B40D5080012187D /* RootViewController.h */,
+				AE9860D71B40D5080012187D /* RootViewController.m */,
+				AE9860D91B40D5080012187D /* DataViewController.h */,
+				AE9861191B40D81B0012187D /* UIAlertView+error.h */,
+				AE98611A1B40D81B0012187D /* UIAlertView+error.m */,
+				AE9861131B40D6FF0012187D /* login.m */,
+				AE9861151B40D75D0012187D /* mainScreen.h */,
+				AE9861161B40D7C80012187D /* registerScreen.h */,
+				AE9861171B40D7ED0012187D /* registerScreen.m */,
+				AE9861121B40D6E80012187D /* login.h */,
+				AE9860D11B40D5080012187D /* main.m */,
+				AE9861111B40D67B0012187D /* PayPoint-Prefix.pch */,
+				AE9860DA1B40D5080012187D /* DataViewController.m */,
+				AE9860DC1B40D5080012187D /* ModelController.h */,
+				AEA2C7DD1B422E03008A4D82 /* ViewController.h */,
+				AEA2C7DE1B422E0E008A4D82 /* ViewController.m */,
+				AE9860DD1B40D5080012187D /* ModelController.m */,
+				AE9860DF1B40D5080012187D /* Main.storyboard */,
+				AE9860E21B40D5080012187D /* Images.xcassets */,
+				AE9860E41B40D5080012187D /* LaunchScreen.xib */,
+				AE9860CF1B40D5080012187D /* Supporting Files */,
+			);
+			path = "pointPay-App";
+			sourceTree = "<group>";
+		};
+		AE9860CF1B40D5080012187D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9860D01B40D5080012187D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		AE9860EE1B40D5080012187D /* pointPay-AppTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE9860F11B40D5080012187D /* pointPay_AppTests.m */,
+				AE9860EF1B40D5080012187D /* Supporting Files */,
+			);
+			path = "pointPay-AppTests";
+			sourceTree = "<group>";
+		};
+		AE9860EF1B40D5080012187D /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				AE9860F01B40D5080012187D /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE9860CB1B40D5080012187D /* pointPay-App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9860F51B40D5080012187D /* Build configuration list for PBXNativeTarget "pointPay-App" */;
+			buildPhases = (
+				AE9860C81B40D5080012187D /* Sources */,
+				AE9860C91B40D5080012187D /* Frameworks */,
+				AE9860CA1B40D5080012187D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "pointPay-App";
+			productName = "pointPay-App";
+			productReference = AE9860CC1B40D5080012187D /* pointPay-App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE9860EA1B40D5080012187D /* pointPay-AppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE9860F81B40D5080012187D /* Build configuration list for PBXNativeTarget "pointPay-AppTests" */;
+			buildPhases = (
+				AE9860E71B40D5080012187D /* Sources */,
+				AE9860E81B40D5080012187D /* Frameworks */,
+				AE9860E91B40D5080012187D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE9860ED1B40D5080012187D /* PBXTargetDependency */,
+			);
+			name = "pointPay-AppTests";
+			productName = "pointPay-AppTests";
+			productReference = AE9860EB1B40D5080012187D /* pointPay-AppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE9860C41B40D5080012187D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = "Steel City Developers";
+				TargetAttributes = {
+					AE9860CB1B40D5080012187D = {
+						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = D3RC6MGURN;
+					};
+					AE9860EA1B40D5080012187D = {
+						CreatedOnToolsVersion = 6.3.1;
+						TestTargetID = AE9860CB1B40D5080012187D;
+					};
+				};
+			};
+			buildConfigurationList = AE9860C71B40D5080012187D /* Build configuration list for PBXProject "pointPay-App" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE9860C31B40D5080012187D;
+			productRefGroup = AE9860CD1B40D5080012187D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE9860CB1B40D5080012187D /* pointPay-App */,
+				AE9860EA1B40D5080012187D /* pointPay-AppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE9860CA1B40D5080012187D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9861261B4201430012187D /* images in Resources */,
+				AE9860E11B40D5080012187D /* Main.storyboard in Resources */,
+				AE9860E61B40D5080012187D /* LaunchScreen.xib in Resources */,
+				AE9860E31B40D5080012187D /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9860E91B40D5080012187D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE9860C81B40D5080012187D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9860DB1B40D5080012187D /* DataViewController.m in Sources */,
+				AE9861181B40D7EE0012187D /* registerScreen.m in Sources */,
+				AE9860D51B40D5080012187D /* AppDelegate.m in Sources */,
+				AE9860DE1B40D5080012187D /* ModelController.m in Sources */,
+				AEA2C7DF1B422E0E008A4D82 /* ViewController.m in Sources */,
+				AE9861211B40D81B0012187D /* UIAlertView+error.m in Sources */,
+				AE9861141B40D6FF0012187D /* login.m in Sources */,
+				AE9860D21B40D5080012187D /* main.m in Sources */,
+				AE9860D81B40D5080012187D /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE9860E71B40D5080012187D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE9860F21B40D5080012187D /* pointPay_AppTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE9860ED1B40D5080012187D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE9860CB1B40D5080012187D /* pointPay-App */;
+			targetProxy = AE9860EC1B40D5080012187D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE9860DF1B40D5080012187D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9860E01B40D5080012187D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE9860E41B40D5080012187D /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE9860E51B40D5080012187D /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE9860F31B40D5080012187D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		AE9860F41B40D5080012187D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE9860F61B40D5080012187D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "pointPay-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		AE9860F71B40D5080012187D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = "pointPay-App/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		AE9860F91B40D5080012187D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pointPay-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointPay-App.app/pointPay-App";
+			};
+			name = Debug;
+		};
+		AE9860FA1B40D5080012187D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "pointPay-AppTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pointPay-App.app/pointPay-App";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE9860C71B40D5080012187D /* Build configuration list for PBXProject "pointPay-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9860F31B40D5080012187D /* Debug */,
+				AE9860F41B40D5080012187D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9860F51B40D5080012187D /* Build configuration list for PBXNativeTarget "pointPay-App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9860F61B40D5080012187D /* Debug */,
+				AE9860F71B40D5080012187D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE9860F81B40D5080012187D /* Build configuration list for PBXNativeTarget "pointPay-AppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE9860F91B40D5080012187D /* Debug */,
+				AE9860FA1B40D5080012187D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE9860C41B40D5080012187D /* Project object */;
+}
